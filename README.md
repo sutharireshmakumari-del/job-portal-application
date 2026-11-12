@@ -1,16 +1,46 @@
-# React + Vite
+Job Portal Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+About the Project
 
-Currently, two official plugins are available:
+The Job Portal Application is a frontend web application developed using React.js. It helps users explore job opportunities, view job details, and find suitable positions through a user-friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Technologies Used
 
-## React Compiler
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Features
 
-## Expanding the ESLint configuration
+- Browse job opportunities
+- View job details
+- Explore available positions
+- User-friendly interface
+- Reusable React components
+- Responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Project Structure
+
+- "src/" – Main source code
+- "public/" – Static assets
+- "src/components/" – Reusable components
+
+How to Run the Project
+
+1. Clone the repository:
+   "git clone https://github.com/sutharireshmakumari-del/job-portal-application.git"
+
+2. Open the project folder:
+   "cd job-portal-application"
+
+3. Install dependencies:
+   "npm install"
+
+4. Start the application:
+   "npm run dev"
+
+Author
+
+Suthari Reshma Kumari
