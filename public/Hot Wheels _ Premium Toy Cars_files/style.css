@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* !HOME PAGE STYLES */
+.home_page {
+  height: 90vh;
+  width: 100vw;
+}
+.home_page > nav {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}
+.home_page > nav a {
+  text-decoration: none;
+  margin: 10px;
+  color: rgb(53, 53, 53);
+}
+.home_page > header {
+  height: calc(90vh - 10vh);
+  background: url("./assets/heroBackground.jpg") no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home_page > header > .description {
+  width: 450px;
+  height: 220px;
+  background-color: rgba(0, 0, 0, 0.609);
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.description > h1 {
+  font-size: 2.6rem;
+}
+.description > button {
+  padding: 15px 20px;
+  background-color: royalblue;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  margin-top: 10px;
+}
+
+/* !CARS PAGE STYLES */
+.cars_page {
+  min-height: 60vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cars_page > h1 {
+  margin-top: 20px;
+}
+.cars_page > .card_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+}
+.card {
+  height: 310px;
+  width: 450px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card > img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.card > p:nth-child(4) {
+  color: royalblue;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+/* !FOOTER PAGE STYLES */
+.footer_page {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_page > h1 {
+  margin-top: 20px;
+}
+.footer_page > .features_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.feature > p {
+  font-size: 3.5rem;
+}
+
+footer {
+  background-color: #1f2937;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+@media (max-width: 510px) {
+  html{
+    font-size: 10px !important;
+  }
+  nav {
+    padding: 0px 20px !important;
+  }
+  .description {
+    height: 200px !important;
+    width: 70% !important;
+  }
+  .description > h1 {
+    text-align: center;
+  }
+  .card {
+    height: 270px;
+    margin-bottom: 40px;
+  }
+  .card > img {
+    height: 160px;
+  }
+  .feature {
+    margin: 20px 0px;
+  }
+}

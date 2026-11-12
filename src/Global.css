@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+  color: aquamarine;
+  text-decoration: line-through;
+  background-color: blueviolet;
+}
+p{
+  color: chartreuse;
+  background-color: darkgoldenrod;
+  border: 2px solid black;
+}
